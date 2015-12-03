@@ -1,0 +1,57 @@
+//
+//  PrefixHeader.pch
+//  GlideView
+//
+//  Created by majianjie on 15/12/3.
+//  Copyright © 2015年 majianjie. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ZZCommon.h"
+
+#import "NSDate+Extension.h"
+#import "NSMutableDictionary+Category.h"
+#import "NSString+Category.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIColor+Extension.h"
+#import "UIImage+Extionsion.h"
+#import "UIView+Extension.h"
+#import "UIWindow+Extension.h"
+#import <Masonry.h>
+#import "AColorAndFont.h"
+
+#ifdef DEBUG //处于开发阶段
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else       //处于发布阶段
+#define NSLog(...)
+#endif
+
+//=====================第三方需要的数据=====================
+//友盟Appkey
+#define UMeng_Appkey @"55a2812767e58e41a7001d50"
+
+//极光Appkey
+#define JPush_Appkey @"ccd3f71b5aa7e51bb5fee839"
+
+//回调url
+#define Handler_URL @"http://www.careerdream.org"
+
+//微信AppId
+#define Wechat_AppID @"wx2f66345f4a132c12"
+//微信appSecret
+#define Wechat_AppSecret @"a31f1f8c607df0c5f6016916fe5d00d1"
+
+//新浪微博AppId
+#define SinaWeibo_AppID @"3165197267"
+//微博appSecret
+#define SinaWeibo_AppSecret @"d0d1f3ec77d7e58180661234d2a58ee5"
+
+
+//用来获取keychain中的内容
+#define Service_Name @"com.Careerdream.Careerdream"
+
+
+
+#endif /* PrefixHeader_pch */
