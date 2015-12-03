@@ -33,6 +33,7 @@
 		302637C41C0FE3DB0032C085 /* SearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 302637C21C0FE3DB0032C085 /* SearchCell.m */; };
 		302637C51C0FE3DB0032C085 /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302637C31C0FE3DB0032C085 /* SearchCell.xib */; };
 		302637C81C0FE3F70032C085 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302637C71C0FE3F70032C085 /* BaseViewController.m */; };
+		302637FB1C102F200032C085 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 302637FA1C102F200032C085 /* UIView+Toast.m */; };
 		C7E466CCA0D8E40E2DBACBDF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A198669C9243FD733C272F7D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,8 @@
 		302637C61C0FE3F70032C085 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		302637C71C0FE3F70032C085 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		302637EC1C0FF4F10032C085 /* AColorAndFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AColorAndFont.h; sourceTree = "<group>"; };
+		302637F91C102F200032C085 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		302637FA1C102F200032C085 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		7DB037EA5582C18DD4A07F3D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		85587C38D1DF02B53EA7E417 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A198669C9243FD733C272F7D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +163,8 @@
 		302637671C0FDF800032C085 /* Categoary */ = {
 			isa = PBXGroup;
 			children = (
+				302637F91C102F200032C085 /* UIView+Toast.h */,
+				302637FA1C102F200032C085 /* UIView+Toast.m */,
 				302637681C0FDF800032C085 /* Foundation+Log.m */,
 				302637691C0FDF800032C085 /* NSDate+Extension.h */,
 				3026376A1C0FDF800032C085 /* NSDate+Extension.m */,
@@ -377,6 +382,7 @@
 				3026379A1C0FDF800032C085 /* NSDate+Extension.m in Sources */,
 				302637C41C0FE3DB0032C085 /* SearchCell.m in Sources */,
 				302637BC1C0FE3B00032C085 /* DeliverViewController.m in Sources */,
+				302637FB1C102F200032C085 /* UIView+Toast.m in Sources */,
 				3026379E1C0FDF800032C085 /* UIColor+Extension.m in Sources */,
 				302637991C0FDF800032C085 /* Foundation+Log.m in Sources */,
 				3026379B1C0FDF800032C085 /* NSMutableDictionary+Category.m in Sources */,
